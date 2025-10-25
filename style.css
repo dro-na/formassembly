@@ -46,7 +46,6 @@
             display: flex;
             padding-top: 1em;
             justify-content: space-between;
-            /* border: 1px solid white; */
             padding-top: 3em;
 
 
@@ -65,11 +64,11 @@
                 display: none;
                 position: absolute;
                 min-width: 100px;
-                /* ADD THIS - removes from normal flow */
+                /* removes from normal flow */
                 top: 100%;
                 /* ADD THIS - positions below the button */
                 left: 0;
-                /* ADD THIS - aligns to left edge */
+                /* aligns to left edge */
             }
 
 
@@ -124,8 +123,7 @@
         padding-top: 7em;
         display: flex;
         gap: 2em;
-        /* align-items: center; */
-        /* justify-content: center; */
+
 
         .text {
             padding-top: 2em;
@@ -207,6 +205,5 @@
         font-size: 1.7em;
         margin-top: 1em;
     }
-
 
 }
